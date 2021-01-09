@@ -1,0 +1,4073 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2020/7/untitled-ontology-23"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dell/ontologies/2020/7/untitled-ontology-23">
+    <Prefix name="" IRI="http://www.semanticweb.org/dell/ontologies/2020/7/untitled-ontology-23"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>&quot;University of Moratuwa is the country&apos;s leading technological higher education institute excelling both locally and globally.&quot;</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Academic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcademicStaff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdministrativeStaff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantBursar_FacultyOfEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantBursar_FacultyOfInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantInternalAuditor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantRegistrar_FacultyOfBusiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantRegistrar_FacultyOfGraduateStudies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantRegistrar_LibraryServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantRegistrar_Non-AcademicEstablishments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantRegistrar_facultyOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantRegistrar_facultyOfInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AstronomicalSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BRU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuddhistSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildingEconomicStudentSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bursar_FinanceDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bursary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusSeasonTicketLetter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C1_Canteen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C2_Canteen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C3_Canteen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C4_Canteen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C5_Canteen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C6_Canteen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CINTEC_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CanteenFacility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChiefMedicalOfficer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CivilEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CivilEngineeringSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassicalMusicSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerOperatorGr.I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DancingSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dean_FacultyOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dean_FacultyOfBusiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dean_FacultyOfEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dean_FacultyOfGraduateStudies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dean_FacultyOfInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DecisionScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfBachelorOfInformationTechnology-ExternalDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfBachelorOfScienceInInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfBusiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfDoctorOfPhilosophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfBusiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInEntrepreneurship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInManagementOfTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInProjectManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationIn_e-Governance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfBuildingEconomics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfComputationalMathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfEarthResourcesEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectricalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfManagementOfTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMechanicalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfEngineeringInEnergyTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfEngineeringInManufacturingSystemsEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfEngineeringInStructuralEngineeringDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfGemmology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfPhilosophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInArchitecturalConservationOfMonumentsAndSites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInArtificialIntelligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInBuildingServicesEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInBusinessStatistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInComputerScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInConstructionProjectManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInElectricalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInElectricalInstallations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInEnvironmentalManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInFinancialMathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInGemmology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInIndustrialAutomation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInInteriorDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInLandscapeDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInMaterialScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInMultimediaTechnologies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInOperationalResearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInPolymerTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInProjectManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInSustainableProcessDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInTelecommunications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInTransportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfSupplyChainManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfUrbanDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DentalSurgeon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentOfBuildingEconomic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentOfComputationalMathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentOfInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentOfIntegratedDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentOfInterdisciplinaryStudies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentOfLanguages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeputyBursar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeputyBursar_FinanceDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeputyInternalAuditor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeputyRegistrar_Establishments_Academic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeputyRegistrar_GeneralAdministration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeputyRegistrar_InstitutionalAffairs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director_PhysicalEducationDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E-ThesisRepository"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ERU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarthResourcesEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricalEngineeringSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronicClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngineeringDesignCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnglishLiteraryAssociation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstablishmentDivision_Academic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstablishmentDivision_Non-Academic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FARU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinanceDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GardenMaintenanceDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GavelClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralAdministrationDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gold_Medal_donated_by_IBM_Sri_Lanka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gold_Medal_donated_by_the_Ceylon_Electricity_Board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GraduateStudy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HA_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HB_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HC_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HD_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HF_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HN_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HP_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HR_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfBusinessScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfLandscapeArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInFacilitiesManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInQuantitySurveying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ITRU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustryCollabarativeResearchLaboratories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instructor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntellectualPropertyAdvisoryCommittee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternalAuditDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LEOclub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LSS_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LapTopLoan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lecturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MBC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MahapolaScholarship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaintenanceDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MajisUiIslamSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male_Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManagementOfTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manamperi_Award_-Sri_Lanka_Association_for_the_Advancement_of_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaritimeClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicalEngineeringSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalCenterStaff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalLaboratoryTechnologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Migara_Ranatunga_Trust_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Module"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoraHiking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoratuwaStudentsChristianFellowship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultidisciplinaryResearchCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NatureTeam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonAcademicStaff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OfficeOfDRGeneralAdmin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OfficeOfDeputyRegistrar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OfficeOfResearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OfficersOfUniversity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalEducationDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiploma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInArchitecturalConservationOfMonumentsAndSites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInArtificialIntelligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInBuildingServicesEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInEntrepreneurship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInManagementOfTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInProjectManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedIn_e-Governance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInBusinessStatistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInComputerScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInConstructionLawAndDisputeResolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInConstructionProjectManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInElectricalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInElectricalInstallations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInEnergyTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInEntrepreneurship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInEnvironmentalManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInFinancialMathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInGemmology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInIndustrialAutomation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInLandscapeDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInMOT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInManufacturingSystemsEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInMaterialScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInMultimediaTechnologies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInOperationalResearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInPolymerTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInProjectManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInStructuralEngineeringDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInSustainableProcessDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInTransportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInUrbanDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfBusiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfAComputationalMathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfBuildingEconomics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfEarthResourcesEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfElectricalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfInformationTechonology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfManagementOfTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMechanicalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfTownAndContryPlanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prof._K.K.Y.W._Perera_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prof._O.P._Kulashethra_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfessionalCounselor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicHealthInspector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RailwaySeasonTicketLetter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RangamadaleApiRangakalaEkamuthuwa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registrar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegistrarOffice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchBasedDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOpportunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RotractClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SBC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SBS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeniorAssistantBursar_FinanceDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeniorAssistantBursar_SuppliesDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeniorAssistantRegistrar_FacultyOfEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeniorAssistantRegistrar_Welfare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeniorLecturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeniorStaffTechnicalOfficer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SinhalaCulturalSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SisuSahanaSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sri_Lanka_Telecom_Scholarship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StaffNurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StaffTechnicalOfficer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StaffTechnicalOfficer-GradeII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentAccommodation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentCounsellor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentDevelopmentSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentForm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentProgressReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentSupport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentUnion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentWelfareFacility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentshipConfirmationLetter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuppliesDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TamilLiterarySociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaughtCourse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToastmastersClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TraineeTechnicalOfficer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UndergraduateDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UniversityMedicalCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UniversityMedicalOfiicer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_of_Moratuwa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViceChancellor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vidya_Jyothi_Professor_Dayantha_S_Wijeyesekera_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virtusa_Awards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VisitingLecturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Website"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WelfareDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorksEngineer_Gr.II"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Academic&amp;PublicationDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchitectureFacultyStudents&apos;Union"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantBursar_FacultyOfArchitecture/Acting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistantBursar_FinanceDivision&amp;Acting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Awards&amp;Recognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfComputerScienceEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CapitalWorks&amp;ServicesDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CatholicStudents&apos;Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical&amp;ProcessEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clubs&amp;Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerScience&amp;Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consultant_Legal&amp;Documentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consultant_ProjectManagement/CapitalWorks&amp;Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfChemical&amp;ProcessEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfComputerScience&amp;Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectronics&amp;TelecommunicationEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMaterialScience&amp;Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTextile&amp;ClothingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTown&amp;CountryPlanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTransport&amp;LogisticManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfEngineeringInFoundationEngineering&amp;EarthRetainingSystems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfEngineeringInHighway&amp;TrafficEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInConstructionLaw&amp;DisputeResolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInElectronic&amp;TelecommunicationEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInElectronics&amp;Automation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInEnvironmentalEngineering&amp;Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInMining&amp;MineralExploration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInRemoteSensing&amp;GeographicalInformationSystems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInTextile&amp;ClothingManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInTown&amp;CountryPlanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfScienceInWaterResourcesEngineering&amp;Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfMasterOfSpatialPlanningManagement&amp;Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentOfTown&amp;CountryPlanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeputyRegistrar_Academic&amp;Publications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeputyRegistrar_Examination&amp;Registration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electronic&amp;TelecommunicationEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngineeringFacultyStudents&apos;Union"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EthugalpuraStudents&apos;Circle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Examination&amp;RegistrationDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalAffairsPublicity&amp;InternationalStudentPromotionDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfDesignInFashionDesign&amp;ProductDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInInformationTechnology&amp;Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInTown&amp;CountryPlanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInTransport&amp;LogisticsManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationTechnologyFacultyStudents&apos;Union"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Innovation&amp;Entrepreneurship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal&amp;DocumentationDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M.ScInOccupationalSafety&amp;HealthManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialScience&amp;Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialsEngineeringStudents&apos;Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDTStudents&apos;Union"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInElectronics&amp;Automation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInEnvironmentalEngineering&amp;Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInEnvironmentalWaterResourcesEngineering&amp;Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInFoundationEngineering&amp;EarthRetainingSystems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInHighway&amp;TrafficEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInMining&amp;MineralExploration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInRemoteSensing&amp;GeographicalInformationSystems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInTextile&amp;ClothingManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaInTown&amp;CountryPlanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfChemical&amp;ProcessEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfComputerScience&amp;Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMaterialScience&amp;Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfTextile&amp;ClothingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeniorAssistantRegistrar_CapitalWorks&amp;Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:CivilEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:EarthResourcesEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:ElectricalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:EngineeringHounersInResourceEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:MachanicalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:ComputerScience&amp;Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:Electronic&amp;TelecommunicationEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:MaterialScience&amp;Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisation:Textile&amp;ClothingEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalOfficerGradeII_Seg&apos;A&apos;"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Textile&amp;ClothingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transport&amp;LogisticsManagement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#award"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#counsels"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enrolls"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#follows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#heldBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#helds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGiven"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHeadOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInDegree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInDepartment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProvided"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTaught"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isfollowed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#joins"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offeredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offersCourceModules"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offersDegree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#teaches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#works"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date_Of_Award"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date_Of_Held"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date_Of_Join"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date_Of_Publish"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DegreeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DepartmentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Department_Id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Experience"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#First_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GPA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Last_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Module_Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Module_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Results"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Student_Id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UniversityName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#courseCredits"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#courseHours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abayalath_K.H.M."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BSc_Hons_CivilEngineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BSc_Hons_ElectricalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnologyManagement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BSc_Hons_MechanicalEngineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computational_Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computational_Statistics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataMining_And_DataWarehousing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr_Mrs_AA_Hettiarachchi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr_Mrs_NH_Salgado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr_Mrs_SM_Egodage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr_Mrs_TN_Dissanayaka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr_Ms_ATP_Silva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr_VPT_Jayawardane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IT_Quality_Assurance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jayawardana_C.M.G."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MR_SK_Rodrigo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MSInformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MSc_ArtificialIntelligence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MSc_InformationTechnology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marketing_Management"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mr.BH_Sudantha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mr_SC_Premaratne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mrs_ASPDA_Perera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mrs_M_Priyadari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mrs_SADI_Samarasinghe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mrs_WMDPM_Hulugalla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ms_SAS_De_Silva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ms_WASN_Wijethunge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prof_AS_Karunananda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prof_PKS_Mahanama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scientific_Communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software_Engineering_Methods"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BSc_Hons_ComputerScience&amp;Engineering"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Academic"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Academic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offersCourceModules"/>
+            <Class IRI="#Module"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Academic"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#offeredBy"/>
+            <Class IRI="#Faculty"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Academic"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#DegreeName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcademicStaff"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcademicStaff"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#teaches"/>
+            <Class IRI="#Module"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcademicStaff"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isInDepartment"/>
+            <Class IRI="#Faculty"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdmininstrativeDivision"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdmininstrativeDivision"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#provides"/>
+            <Class IRI="#StudentSupport"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdministrativeStaff"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Architecture"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Article"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Article"/>
+        <ObjectMaxCardinality cardinality="4">
+            <ObjectProperty IRI="#publishedBy"/>
+            <Class IRI="#Faculty"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Date_Of_Publish"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantBursar_FacultyOfEngineering"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantBursar_FacultyOfInformationTechnology"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantInternalAuditor"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantRegistrar_FacultyOfBusiness"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantRegistrar_FacultyOfGraduateStudies"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantRegistrar_LibraryServices"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantRegistrar_Non-AcademicEstablishments"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantRegistrar_facultyOfArchitecture"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantRegistrar_facultyOfInformationTechnology"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AstronomicalSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BRU"/>
+        <Class IRI="#ResearchUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuddhistSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuildingEconomicStudentSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bursar_FinanceDivision"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bursary"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BusSeasonTicketLetter"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C1_Canteen"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C2_Canteen"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C3_Canteen"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C4_Canteen"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C5_Canteen"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C6_Canteen"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CINTEC_Award"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfComputerScienceEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CanteenFacility"/>
+        <Class IRI="#StudentSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChiefMedicalOfficer"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CivilEngineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CivilEngineeringSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassicalMusicSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerOperatorGr.I"/>
+        <Class IRI="#NonAcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conference"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conference"/>
+        <ObjectMaxCardinality cardinality="4">
+            <ObjectProperty IRI="#heldBy"/>
+            <Class IRI="#Faculty"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conference"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Date_Of_Held"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curator"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DancingSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dean"/>
+        <Class IRI="#OfficersOfUniversity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dean"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isHeadOf"/>
+            <Class IRI="#Faculty"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dean_FacultyOfArchitecture"/>
+        <Class IRI="#Dean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dean_FacultyOfBusiness"/>
+        <Class IRI="#Dean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dean_FacultyOfEngineering"/>
+        <Class IRI="#Dean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dean_FacultyOfGraduateStudies"/>
+        <Class IRI="#Dean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dean_FacultyOfInformationTechnology"/>
+        <Class IRI="#Dean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DecisionScience"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfArchitecture"/>
+        <Class IRI="#UndergraduateDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfBachelorOfInformationTechnology-ExternalDegree"/>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfBachelorOfScienceInInformationTechnology"/>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfBusiness"/>
+        <Class IRI="#UndergraduateDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfDoctorOfPhilosophy"/>
+        <Class IRI="#ResearchBasedDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfEngineering"/>
+        <Class IRI="#UndergraduateDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+        <Class IRI="#UndergraduateDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfArchitecture"/>
+        <Class IRI="#TaughtCourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfBusiness"/>
+        <Class IRI="#TaughtCourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInEntrepreneurship"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfManagementOfTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInInformationTechnology"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfComputerScience&amp;Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInInfrastructure"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInManagementOfTechnology"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfManagementOfTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationInProjectManagement"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfBusinessAdministrationIn_e-Governance"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfComputerScience&amp;Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfArchitecture"/>
+        <Class IRI="#DegreeOfMasterOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfBuildingEconomics"/>
+        <Class IRI="#DegreeOfMasterOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfComputationalMathematics"/>
+        <Class IRI="#DegreeOfMasterOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfEarthResourcesEngineering"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectricalEngineering"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfInformationTechnology"/>
+        <Class IRI="#DegreeOfMasterOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfManagementOfTechnology"/>
+        <Class IRI="#DegreeOfMasterOfBusiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMathematics"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMechanicalEngineering"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+        <Class IRI="#TaughtCourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfEngineeringInEnergyTechnology"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMechanicalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfEngineeringInManufacturingSystemsEngineering"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMechanicalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfEngineeringInStructuralEngineeringDesign"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfGemmology"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfEarthResourcesEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfInformationTechnology"/>
+        <Class IRI="#TaughtCourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfPhilosophy"/>
+        <Class IRI="#ResearchBasedDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScience"/>
+        <Class IRI="#ResearchBasedDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInArchitecturalConservationOfMonumentsAndSites"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInArchitecture"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInArtificialIntelligence"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfComputationalMathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInBuildingServicesEngineering"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMechanicalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInBusinessStatistics"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInComputerScience"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfComputerScience&amp;Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInConstructionProjectManagement"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInElectricalEngineering"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectricalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInElectricalInstallations"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectricalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInEnvironmentalManagement"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInFinancialMathematics"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInGemmology"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfEarthResourcesEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInIndustrialAutomation"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectricalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInInformationTechnology"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInInteriorDesign"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInLandscapeDesign"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInMaterialScience"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMaterialScience&amp;Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInMultimediaTechnologies"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInOperationalResearch"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInPolymerTechnology"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfChemical&amp;ProcessEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInProjectManagement"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfBuildingEconomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInSustainableProcessDevelopment"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfChemical&amp;ProcessEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInTelecommunications"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectronics&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInTransportation"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfSupplyChainManagement"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTransport&amp;LogisticManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfUrbanDesign"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DentalSurgeon"/>
+        <Class IRI="#MedicalCenterStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartmentOfArchitecture"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartmentOfBuildingEconomic"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartmentOfComputationalMathematics"/>
+        <Class IRI="#Information_Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartmentOfInformationTechnology"/>
+        <Class IRI="#Information_Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartmentOfIntegratedDesign"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartmentOfInterdisciplinaryStudies"/>
+        <Class IRI="#Information_Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartmentOfLanguages"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeputyBursar"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeputyBursar_FinanceDivision"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeputyInternalAuditor"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeputyRegistrar_Establishments_Academic"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeputyRegistrar_GeneralAdministration"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeputyRegistrar_InstitutionalAffairs"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director_PhysicalEducationDivision"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E-ThesisRepository"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ERU"/>
+        <Class IRI="#ResearchUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarthResourcesEngineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricalEngineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricalEngineeringSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectronicClub"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engineering"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngineeringDesignCenter"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnglishLiteraryAssociation"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstablishmentDivision_Academic"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstablishmentDivision_Non-Academic"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FARU"/>
+        <Class IRI="#ResearchUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#helds"/>
+            <Class IRI="#Conference"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#publishes"/>
+            <Class IRI="#Article"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#publishes"/>
+            <Class IRI="#Research"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#shows"/>
+            <Class IRI="#Notice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#offersDegree"/>
+            <Class IRI="#Faculty"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#DepartmentName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Department_Id"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female_Hostel"/>
+        <Class IRI="#StudentAccommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinanceDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GardenMaintenanceDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GavelClub"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralAdministrationDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gold_Medal_donated_by_IBM_Sri_Lanka"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfComputerScienceEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gold_Medal_donated_by_the_Ceylon_Electricity_Board"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GraduateStudy"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HA_Hostel"/>
+        <Class IRI="#Male_Hostel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HB_Hostel"/>
+        <Class IRI="#Female_Hostel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HC_Hostel"/>
+        <Class IRI="#Female_Hostel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HD_Hostel"/>
+        <Class IRI="#Female_Hostel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HF_Hostel"/>
+        <Class IRI="#Male_Hostel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HN_Hostel"/>
+        <Class IRI="#Male_Hostel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HP_Hostel"/>
+        <Class IRI="#Male_Hostel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HR_Hostel"/>
+        <Class IRI="#Male_Hostel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthCenter"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfArchitecture"/>
+        <Class IRI="#DegreeOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfBusinessScience"/>
+        <Class IRI="#DegreeOfBusiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfDesign"/>
+        <Class IRI="#DegreeOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfLandscapeArchitecture"/>
+        <Class IRI="#DegreeOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInFacilitiesManagement"/>
+        <Class IRI="#DegreeOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInInformationTechnology"/>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInQuantitySurveying"/>
+        <Class IRI="#DegreeOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+        <Class IRI="#DegreeOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ITRU"/>
+        <Class IRI="#ResearchUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialManagement"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustryCollabarativeResearchLaboratories"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_Technology"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instructor"/>
+        <Class IRI="#AcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntellectualPropertyAdvisoryCommittee"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternalAuditDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LEOclub"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LSS_Award"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LapTopLoan"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lecturer"/>
+        <Class IRI="#AcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lecturer"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#DepartmentName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MBC"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MahapolaScholarship"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenanceDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MajisUiIslamSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male_Hostel"/>
+        <Class IRI="#StudentAccommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManagementOfTechnology"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manamperi_Award_-Sri_Lanka_Association_for_the_Advancement_of_Science"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaritimeClub"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mathematics"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalEngineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalEngineeringSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediaClub"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalCenterStaff"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalLaboratoryTechnologist"/>
+        <Class IRI="#MedicalCenterStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Migara_Ranatunga_Trust_Award"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isfollowed"/>
+            <Class IRI="#Student"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isInDegree"/>
+            <Class IRI="#Academic"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isTaught"/>
+            <Class IRI="#AcademicStaff"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Module_Code"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Module_Name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#courseCredits"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#courseHours"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoraHiking"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoratuwaStudentsChristianFellowship"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultidisciplinaryResearchCenter"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NatureTeam"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonAcademicStaff"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notice"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notice"/>
+        <ObjectMaxCardinality cardinality="4">
+            <ObjectProperty IRI="#isGiven"/>
+            <Class IRI="#Faculty"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OfficeOfDRGeneralAdmin"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OfficeOfDeputyRegistrar"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OfficeOfResearch"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OfficersOfUniversity"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherSociety"/>
+        <Class IRI="#Clubs&amp;Society"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#First_Name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Last_Name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Age"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Date_Of_Join"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacist"/>
+        <Class IRI="#MedicalCenterStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalEducationDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDegree"/>
+        <Class IRI="#Academic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiploma"/>
+        <Class IRI="#Academic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInArchitecturalConservationOfMonumentsAndSites"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInArtificialIntelligence"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfAComputationalMathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInBuildingServicesEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMechanicalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInEntrepreneurship"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfManagementOfTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInInformationTechnology"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfComputerScience&amp;Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInInfrastructure"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInManagementOfTechnology"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfManagementOfTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedInProjectManagement"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInBusinessAdministrationSpecialisedIn_e-Governance"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfComputerScience&amp;Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInBusinessStatistics"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInComputerScience"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfComputerScience&amp;Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInConstructionLawAndDisputeResolution"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfBuildingEconomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInConstructionProjectManagement"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInElectricalEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfElectricalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInElectricalInstallations"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfElectricalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInEnergyTechnology"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMechanicalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInEntrepreneurship"/>
+        <Class IRI="#PostgraduateDiplomaOfBusiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInEnvironmentalManagement"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInFinancialMathematics"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInGemmology"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfEarthResourcesEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInIndustrialAutomation"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfElectricalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInInformationTechnology"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfInformationTechonology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInLandscapeDesign"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInMOT"/>
+        <Class IRI="#PostgraduateDiplomaOfBusiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInManufacturingSystemsEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMechanicalEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInMaterialScience"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMaterialScience&amp;Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInMultimediaTechnologies"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfInformationTechonology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInOperationalResearch"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInPolymerTechnology"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfChemical&amp;ProcessEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInProjectManagement"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfBuildingEconomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInStructuralEngineeringDesign"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInSustainableProcessDevelopment"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfChemical&amp;ProcessEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInTransportation"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInUrbanDesign"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfArchitecture"/>
+        <Class IRI="#PostgraduateDiploma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfBusiness"/>
+        <Class IRI="#PostgraduateDiploma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfAComputationalMathematics"/>
+        <Class IRI="#PostgraduateDiplomaOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfArchitecture"/>
+        <Class IRI="#PostgraduateDiplomaOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfBuildingEconomics"/>
+        <Class IRI="#PostgraduateDiplomaOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfEarthResourcesEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfElectricalEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfInformationTechonology"/>
+        <Class IRI="#PostgraduateDiplomaOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfManagementOfTechnology"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMathematics"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMechanicalEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfTownAndContryPlanning"/>
+        <Class IRI="#PostgraduateDiplomaOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+        <Class IRI="#PostgraduateDiploma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfInformationTechnology"/>
+        <Class IRI="#PostgraduateDiploma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prof._K.K.Y.W._Perera_Award"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prof._O.P._Kulashethra_Award"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProfessionalCounselor"/>
+        <Class IRI="#MedicalCenterStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professor"/>
+        <Class IRI="#AcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicHealthInspector"/>
+        <Class IRI="#MedicalCenterStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RailwaySeasonTicketLetter"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RangamadaleApiRangakalaEkamuthuwa"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registrar"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegistrarOffice"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research"/>
+        <ObjectMaxCardinality cardinality="4">
+            <ObjectProperty IRI="#publishedBy"/>
+            <Class IRI="#Faculty"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchBasedDegree"/>
+        <Class IRI="#PostgraduateDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOpportunity"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchUnit"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RotractClub"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SBC"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SBS"/>
+        <Class IRI="#CanteenFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityService"/>
+        <Class IRI="#StudentSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeniorAssistantBursar_FinanceDivision"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeniorAssistantBursar_SuppliesDivision"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeniorAssistantRegistrar_FacultyOfEngineering"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeniorAssistantRegistrar_Welfare"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeniorLecturer"/>
+        <Class IRI="#AcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeniorStaffTechnicalOfficer"/>
+        <Class IRI="#NonAcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SinhalaCulturalSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SisuSahanaSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sri_Lanka_Telecom_Scholarship"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaffNurse"/>
+        <Class IRI="#MedicalCenterStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaffTechnicalOfficer"/>
+        <Class IRI="#NonAcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaffTechnicalOfficer-GradeII"/>
+        <Class IRI="#NonAcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Module"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#joins"/>
+            <Class IRI="#Clubs&amp;Society"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#enrolls"/>
+            <Class IRI="#Academic"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Student_Id"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentAccommodation"/>
+        <Class IRI="#StudentSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentCounsellor"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentDevelopmentSociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentForm"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentProgressReport"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentSupport"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentSupport"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isProvided"/>
+            <Class IRI="#AdmininstrativeDivision"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentUnion"/>
+        <Class IRI="#Clubs&amp;Society"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentWelfareFacility"/>
+        <Class IRI="#StudentSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentshipConfirmationLetter"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuppliesDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TamilLiterarySociety"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaughtCourse"/>
+        <Class IRI="#PostgraduateDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToastmastersClub"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TraineeTechnicalOfficer"/>
+        <Class IRI="#NonAcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UndergraduateDegree"/>
+        <Class IRI="#Academic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UniversityMedicalCenter"/>
+        <Class IRI="#StudentSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UniversityMedicalOfiicer"/>
+        <Class IRI="#MedicalCenterStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_Moratuwa"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Website"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_Moratuwa"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#UniversityName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViceChancellor"/>
+        <Class IRI="#OfficersOfUniversity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViceChancellor"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isHeadOf"/>
+            <Class IRI="#University_of_Moratuwa"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vidya_Jyothi_Professor_Dayantha_S_Wijeyesekera_Award"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virtusa_Awards"/>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfComputerScienceEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisitingLecturer"/>
+        <Class IRI="#AcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Website"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WelfareDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorksEngineer_Gr.II"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Academic&amp;PublicationDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchitectureFacultyStudents&apos;Union"/>
+        <Class IRI="#StudentUnion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantBursar_FacultyOfArchitecture/Acting"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssistantBursar_FinanceDivision&amp;Acting"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Awards&amp;Recognition"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Awards&amp;Recognition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#award"/>
+            <Class IRI="#People"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Awards&amp;Recognition"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Date_Of_Award"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfComputerScienceEngineering"/>
+        <Class IRI="#Awards&amp;Recognition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Awards&amp;RecognitionOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+        <Class IRI="#Awards&amp;Recognition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CapitalWorks&amp;ServicesDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CatholicStudents&apos;Society"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical&amp;ProcessEngineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clubs&amp;Society"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clubs&amp;Society"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#organizedBy"/>
+            <Class IRI="#People"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerScience&amp;Engineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consultant_Legal&amp;Documentation"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consultant_ProjectManagement/CapitalWorks&amp;Services"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfChemical&amp;ProcessEngineering"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfComputerScience&amp;Engineering"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectronics&amp;TelecommunicationEngineering"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfMaterialScience&amp;Engineering"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTextile&amp;ClothingTechnology"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTown&amp;CountryPlanning"/>
+        <Class IRI="#DegreeOfMasterOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTransport&amp;LogisticManagement"/>
+        <Class IRI="#DegreeOfMasterOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfEngineeringInFoundationEngineering&amp;EarthRetainingSystems"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfEngineeringInHighway&amp;TrafficEngineering"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInConstructionLaw&amp;DisputeResolution"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfBuildingEconomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInElectronic&amp;TelecommunicationEngineering"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectronics&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInElectronics&amp;Automation"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfElectronics&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInEnvironmentalEngineering&amp;Management"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInMining&amp;MineralExploration"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfEarthResourcesEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInRemoteSensing&amp;GeographicalInformationSystems"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfEarthResourcesEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInTextile&amp;ClothingManagement"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTextile&amp;ClothingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInTown&amp;CountryPlanning"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTown&amp;CountryPlanning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfScienceInWaterResourcesEngineering&amp;Management"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegreeOfMasterOfSpatialPlanningManagement&amp;Design"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfTown&amp;CountryPlanning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartmentOfTown&amp;CountryPlanning"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeputyRegistrar_Academic&amp;Publications"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeputyRegistrar_Examination&amp;Registration"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electronic&amp;TelecommunicationEngineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngineeringFacultyStudents&apos;Union"/>
+        <Class IRI="#StudentUnion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EthugalpuraStudents&apos;Circle"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Examination&amp;RegistrationDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalAffairsPublicity&amp;InternationalStudentPromotionDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfDesignInFashionDesign&amp;ProductDevelopment"/>
+        <Class IRI="#DegreeOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInInformationTechnology&amp;Management"/>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInTown&amp;CountryPlanning"/>
+        <Class IRI="#DegreeOfArchitecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HonoursDegreeOfBachelorOfScienceInTransport&amp;LogisticsManagement"/>
+        <Class IRI="#DegreeOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationTechnologyFacultyStudents&apos;Union"/>
+        <Class IRI="#StudentUnion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Innovation&amp;Entrepreneurship"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legal&amp;DocumentationDivision"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M.ScInOccupationalSafety&amp;HealthManagement"/>
+        <Class IRI="#DegreeOfMasterOfDepartmentOfBuildingEconomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialScience&amp;Engineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialsEngineeringStudents&apos;Society"/>
+        <Class IRI="#OtherSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NDTStudents&apos;Union"/>
+        <Class IRI="#StudentUnion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInElectronics&amp;Automation"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInEnvironmentalEngineering&amp;Management"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInEnvironmentalWaterResourcesEngineering&amp;Management"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInFoundationEngineering&amp;EarthRetainingSystems"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInHighway&amp;TrafficEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfCivilEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInMining&amp;MineralExploration"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfEarthResourcesEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInRemoteSensing&amp;GeographicalInformationSystems"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfEarthResourcesEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInTextile&amp;ClothingManagement"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfTextile&amp;ClothingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaInTown&amp;CountryPlanning"/>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfTownAndContryPlanning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfChemical&amp;ProcessEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfComputerScience&amp;Engineering"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfElectronic&amp;TelecommunicationEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfMaterialScience&amp;Engineering"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostgraduateDiplomaOfDepartmentOfTextile&amp;ClothingTechnology"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeniorAssistantRegistrar_CapitalWorks&amp;Services"/>
+        <Class IRI="#AdministrativeStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:CivilEngineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:EarthResourcesEngineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:ElectricalEngineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:EngineeringHounersInResourceEngineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:MachanicalEngineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:ComputerScience&amp;Engineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:Electronic&amp;TelecommunicationEngineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:MaterialScience&amp;Engineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisation:Textile&amp;ClothingEngineering"/>
+        <Class IRI="#HonoursDegreeOfBachelorOfTheScienceOfEngineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalOfficerGradeII_Seg&apos;A&apos;"/>
+        <Class IRI="#NonAcademicStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Textile&amp;ClothingTechnology"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transport&amp;LogisticsManagement"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#DegreeOfArchitecture"/>
+        <Class IRI="#DegreeOfBusiness"/>
+        <Class IRI="#DegreeOfEngineering"/>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PostgraduateDegree"/>
+        <Class IRI="#PostgraduateDiploma"/>
+        <Class IRI="#UndergraduateDegree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PostgraduateDiplomaOfArchitecture"/>
+        <Class IRI="#PostgraduateDiplomaOfBusiness"/>
+        <Class IRI="#PostgraduateDiplomaOfEngineering"/>
+        <Class IRI="#PostgraduateDiplomaOfInformationTechnology"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Abayalath_K.H.M."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Specialisation:CivilEngineering"/>
+        <NamedIndividual IRI="#BSc_Hons_CivilEngineering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Specialisation:ElectricalEngineering"/>
+        <NamedIndividual IRI="#BSc_Hons_ElectricalEngineering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DegreeOfInformationTechnology"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnologyManagement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Specialisation:MachanicalEngineering"/>
+        <NamedIndividual IRI="#BSc_Hons_MechanicalEngineering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#Computational_Mathematics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#Computational_Statistics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#DataMining_And_DataWarehousing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StudentCounsellor"/>
+        <NamedIndividual IRI="#Dr_Mrs_AA_Hettiarachchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChiefMedicalOfficer"/>
+        <NamedIndividual IRI="#Dr_Mrs_NH_Salgado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StudentCounsellor"/>
+        <NamedIndividual IRI="#Dr_Mrs_SM_Egodage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DentalSurgeon"/>
+        <NamedIndividual IRI="#Dr_Mrs_TN_Dissanayaka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeniorLecturer"/>
+        <NamedIndividual IRI="#Dr_Ms_ATP_Silva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StudentCounsellor"/>
+        <NamedIndividual IRI="#Dr_VPT_Jayawardane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#IT_Quality_Assurance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Jayawardana_C.M.G."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeputyBursar_FinanceDivision"/>
+        <NamedIndividual IRI="#MR_SK_Rodrigo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DegreeOfMasterOfInformationTechnology"/>
+        <NamedIndividual IRI="#MSc_ArtificialIntelligence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DegreeOfMasterOfInformationTechnology"/>
+        <NamedIndividual IRI="#MSc_InformationTechnology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#Marketing_Management"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dean_FacultyOfInformationTechnology"/>
+        <NamedIndividual IRI="#Mr.BH_Sudantha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeniorLecturer"/>
+        <NamedIndividual IRI="#Mr_SC_Premaratne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeniorAssistantRegistrar_Welfare"/>
+        <NamedIndividual IRI="#Mrs_ASPDA_Perera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StaffNurse"/>
+        <NamedIndividual IRI="#Mrs_M_Priyadari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instructor"/>
+        <NamedIndividual IRI="#Mrs_SADI_Samarasinghe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Registrar"/>
+        <NamedIndividual IRI="#Mrs_WMDPM_Hulugalla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeputyBursar_FinanceDivision"/>
+        <NamedIndividual IRI="#Ms_SAS_De_Silva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeniorLecturer"/>
+        <NamedIndividual IRI="#Ms_WASN_Wijethunge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Prof_AS_Karunananda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ViceChancellor"/>
+        <NamedIndividual IRI="#Prof_PKS_Mahanama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#Scientific_Communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Module"/>
+        <NamedIndividual IRI="#Software_Engineering_Methods"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Specialisation:ComputerScience&amp;Engineering"/>
+        <NamedIndividual IRI="#BSc_Hons_ComputerScience&amp;Engineering"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#enrolls"/>
+        <NamedIndividual IRI="#Abayalath_K.H.M."/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#Abayalath_K.H.M."/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#offersCourceModules"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+        <NamedIndividual IRI="#Scientific_Communication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#offersCourceModules"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#offersCourceModules"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+        <NamedIndividual IRI="#Software_Engineering_Methods"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#teaches"/>
+        <NamedIndividual IRI="#Dr_Ms_ATP_Silva"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#Jayawardana_C.M.G."/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#enrolls"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+        <NamedIndividual IRI="#Software_Engineering_Methods"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDegree"/>
+        <NamedIndividual IRI="#Scientific_Communication"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDegree"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaught"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+        <NamedIndividual IRI="#Dr_Ms_ATP_Silva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isfollowed"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+        <NamedIndividual IRI="#Abayalath_K.H.M."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isfollowed"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDegree"/>
+        <NamedIndividual IRI="#Software_Engineering_Methods"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isfollowed"/>
+        <NamedIndividual IRI="#Software_Engineering_Methods"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Abayalath_K.H.M."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#Abayalath_K.H.M."/>
+        <Literal>Melani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Code"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <Literal>CM 3310</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <Literal>Artificial Interlligence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DegreeName"/>
+        <NamedIndividual IRI="#BSc_Hons_CivilEngineering"/>
+        <Literal>Bsc Hons Civil Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DegreeName"/>
+        <NamedIndividual IRI="#BSc_Hons_ElectricalEngineering"/>
+        <Literal>BSc Hons Electrical Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DegreeName"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnology"/>
+        <Literal>BSc Hons Information Technology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DegreeName"/>
+        <NamedIndividual IRI="#BSc_Hons_InformationTechnologyManagement"/>
+        <Literal>BSc Hons Information Technology and Management</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DegreeName"/>
+        <NamedIndividual IRI="#BSc_Hons_MechanicalEngineering"/>
+        <Literal>BSc Hons Mechanical Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Code"/>
+        <NamedIndividual IRI="#Computational_Mathematics"/>
+        <Literal>CM 3110</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#Computational_Mathematics"/>
+        <Literal>computational Mathematics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#courseHours"/>
+        <NamedIndividual IRI="#Computational_Mathematics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#Computational_Statistics"/>
+        <Literal>CM 3120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#Computational_Statistics"/>
+        <Literal>Computational Statistics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Code"/>
+        <NamedIndividual IRI="#DataMining_And_DataWarehousing"/>
+        <Literal>IN 4400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#DataMining_And_DataWarehousing"/>
+        <Literal>Data Mining &amp; Data Warehousing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DepartmentName"/>
+        <NamedIndividual IRI="#Dr_Ms_ATP_Silva"/>
+        <Literal>Department Of computational Mathematics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Code"/>
+        <NamedIndividual IRI="#IT_Quality_Assurance"/>
+        <Literal>IS 3440</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#IT_Quality_Assurance"/>
+        <Literal>IT Quality Assurance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#Jayawardana_C.M.G."/>
+        <Literal>chathurangi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Join"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-31T00:10:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+        <Literal>Isurie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+        <Literal>Kanchana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Student_Id"/>
+        <NamedIndividual IRI="#Kanchana_W.L.I"/>
+        <Literal>164195L</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DegreeName"/>
+        <NamedIndividual IRI="#MSInformationTechnology"/>
+        <Literal>Master&apos;s degree in Information Technology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Code"/>
+        <NamedIndividual IRI="#Marketing_Management"/>
+        <Literal>IS 4300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#Marketing_Management"/>
+        <Literal>Marketing Management</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Code"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+        <Literal>CM 4330</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#Semantic_Web_And_Ontological_Modeling"/>
+        <Literal>Semantic Web and Ontological Modelling</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Module_Name"/>
+        <NamedIndividual IRI="#Software_Engineering_Methods"/>
+        <Literal>Software Engineering Methods</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DegreeName"/>
+        <NamedIndividual IRI="#BSc_Hons_ComputerScience&amp;Engineering"/>
+        <Literal>BSc Hons Computer Science and Engineering</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#isfollowed"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty IRI="#isMember"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#heldBy"/>
+        <ObjectProperty IRI="#helds"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isGiven"/>
+        <ObjectProperty IRI="#shows"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isInDegree"/>
+        <ObjectProperty IRI="#offersCourceModules"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isProvided"/>
+        <ObjectProperty IRI="#provides"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isTaught"/>
+        <ObjectProperty IRI="#teaches"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#offeredBy"/>
+        <ObjectProperty IRI="#offersDegree"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#publishedBy"/>
+        <ObjectProperty IRI="#publishes"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isHeadOf"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#award"/>
+        <Class IRI="#Awards&amp;Recognition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#counsels"/>
+        <Class IRI="#StudentCounsellor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enrolls"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gives"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#helds"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHeadOf"/>
+        <Class IRI="#Dean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInDepartment"/>
+        <Class IRI="#AcademicStaff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#joins"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offers"/>
+        <Class IRI="#WelfareDivision"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offersCourceModules"/>
+        <Class IRI="#Academic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offersDegree"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#organizedBy"/>
+        <Class IRI="#Clubs&amp;Society"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#AdmininstrativeDivision"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publishes"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#shows"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#teaches"/>
+        <Class IRI="#AcademicStaff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#works"/>
+        <Class IRI="#MedicalCenterStaff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#award"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#counsels"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enrolls"/>
+        <Class IRI="#Academic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="#Module"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#gives"/>
+        <Class IRI="#Notice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#Website"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#helds"/>
+        <Class IRI="#Conference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHeadOf"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInDepartment"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#joins"/>
+        <Class IRI="#Clubs&amp;Society"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offers"/>
+        <Class IRI="#StudentWelfareFacility"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offersCourceModules"/>
+        <Class IRI="#Module"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offersDegree"/>
+        <Class IRI="#Academic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#organizedBy"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#StudentSupport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publishes"/>
+        <Class IRI="#Article"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publishes"/>
+        <Class IRI="#Research"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#shows"/>
+        <Class IRI="#Notice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#teaches"/>
+        <Class IRI="#Module"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#works"/>
+        <Class IRI="#UniversityMedicalCenter"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#DepartmentName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Module_Code"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Module_Name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Student_Id"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#UniversityName"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date_Of_Award"/>
+        <Class IRI="#Awards&amp;Recognition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date_Of_Held"/>
+        <Class IRI="#Conference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date_Of_Join"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date_Of_Publish"/>
+        <Class IRI="#Article"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DegreeName"/>
+        <Class IRI="#Academic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DepartmentName"/>
+        <Class IRI="#Faculty"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Department_Id"/>
+        <Class IRI="#Faculty"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Experience"/>
+        <Class IRI="#AcademicStaff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#First_Name"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GPA"/>
+        <Class IRI="#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Last_Name"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Module_Code"/>
+        <Class IRI="#Module"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Module_Name"/>
+        <Class IRI="#Module"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Results"/>
+        <Class IRI="#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Student_Id"/>
+        <Class IRI="#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UniversityName"/>
+        <Class IRI="#University_of_Moratuwa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courseCredits"/>
+        <Class IRI="#Module"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courseHours"/>
+        <Class IRI="#Module"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date_Of_Award"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date_Of_Held"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date_Of_Join"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date_Of_Publish"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DegreeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DepartmentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Department_Id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Experience"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#First_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GPA"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Last_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Module_Code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Module_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Results"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Student_Id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UniversityName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#courseCredits"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#courseHours"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isHeadOf</IRI>
+        <Literal>Head of particular department</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
